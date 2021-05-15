@@ -18,9 +18,7 @@ public class MainActivity extends AppCompatActivity {
         intent.setType("message/rfc822");
         String[] send_to = {"erumeshbaghel@gmail.com"};
         intent.putExtra(Intent.EXTRA_EMAIL, send_to);
-        //intent.putExtra(Intent.EXTRA_BCC, address);
-        //intent.putExtra(Intent.EXTRA_CC, address);
-
+       
         intent.putExtra(Intent.EXTRA_SUBJECT, "App Feedback!");
         intent.putExtra(Intent.EXTRA_TEXT, "Dear Developer,");
         chooser = Intent.createChooser(intent, "Select Email App...");
