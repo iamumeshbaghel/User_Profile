@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">User Profile</string>
+
+
+    <string name="about_developer">Hi there nice to meet you! My name is Umesh Baghel and I am the man behind this app. I write content about matters that relate to education and personal development. Join me on this journey of knowledge and exploration. </string>
+    <string name="about_developerone">If you have any questions or suggestions, feel free to contact me.</string>
+
+</resources>
