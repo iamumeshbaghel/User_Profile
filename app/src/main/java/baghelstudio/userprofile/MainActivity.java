@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         //intent.putExtra(Intent.EXTRA_BCC, address);
         //intent.putExtra(Intent.EXTRA_CC, address);
 
-        intent.putExtra(Intent.EXTRA_SUBJECT, "Learn MIUI Theme Development App Feedback!");
+        intent.putExtra(Intent.EXTRA_SUBJECT, "App Feedback!");
         intent.putExtra(Intent.EXTRA_TEXT, "Dear Developer,");
         chooser = Intent.createChooser(intent, "Select Email App...");
         if (intent.resolveActivity(getPackageManager()) != null) {
